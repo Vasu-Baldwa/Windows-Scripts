@@ -1,0 +1,11 @@
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdhid\Parameters
+New DWORD 32bit
+Name: CrashOnCtrlScroll
+Value: 1
+
+PS2 Input RegKey
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters
+
+---Restart machine
+
+To force: right crtl and scroll lock twice
